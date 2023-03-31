@@ -1,0 +1,22 @@
+circuit 1 (smart lighting and conditioning inside the tunnel based on object distance)
+1- install arduino IDE
+2- update and install ardino uno board
+3- connect circuit as shown in pcb 
+4- copy code provided by github
+5- run simulaion
+***you can also use tinkercad for simulating poject components ( arduino uno - ultrasonic sensor )
+1- sign up for tinkercad website
+2- choose new icon then choose circuit sub icon 
+3- in search icon choose arduino uno r3 and 6 ultrasonic sensor 4 pins(HC-SR04)
+4- choose code icon then code style using text only (copy text code provided by github)
+5- start simulation 
+***tinkercad project link https://www.tinkercad.com/things/f68tcuYXj6s
+circuit 2 (water level indication)
+1- open simulation circuit software ( proteus - multism -...)
+2- place 3 NPN (2N222) transistors and 3 different LEDs (Red-Green-Blue) for different water levels
+3- connect +ve terminal led to -ve terminal NPN 
+4- connect -ve terminal led to +ve terminal battery of 5 volt DC
+5- connect -ve terminal battery to -ve terminal transistor 
+6- connect end terminal ressistor to +ve input terminal of NPN 
+7- connect input terminal ressistor to water to indicate level
+  
